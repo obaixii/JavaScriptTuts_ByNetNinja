@@ -1,4 +1,4 @@
-myNum = 2
+var myNum = 2
 userName = "Obaid"
 if(myNum > 3){
     console.log("myNum is greater than 3")

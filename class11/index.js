@@ -1,4 +1,4 @@
-myVar =  true
+var myVar =  true
 console.log(myVar)
 
 num = 5
