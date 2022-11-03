@@ -1,4 +1,4 @@
-myVar = "Obaid"
+var myVar = "Obaid"
 document.write(myVar)
 console.log(myVar)
 
