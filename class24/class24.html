@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .content{
+            width: 100%;
+        }
+        .JavaScriptStrings{
+            width: 100%;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: top;
+        }
+        .JavaScriptStrings .methods, .search{
+            width: 50%;
+            padding: 15px;
+        }
+        li{
+            list-style: decimal;
+        }
+        table {
+          font-family: arial, sans-serif;
+          border-collapse: collapse;
+          width: 100%;
+        }
+        /* td{
+            display: block;
+        } */
+        td, th {
+          border: 1px solid #dddddd;
+          text-align: left;
+          padding: 8px;
+        }
+        
+        tr:nth-child(even) {
+          background-color: #dddddd;
+        }
+    </style>
+    <title>Class #24</title>
+</head>
+<body>
+    <h1>Strings in JavaScript</h1>
+    <table>
+        <tr>
+            <th>JavaScript String Methods</th>
+            <th>JavaScript String Search</th>
+        </tr>
+        <tr>
+            <td>
+                <ul>
+                    <li>String length</li>
+                    <li>String slice()</li>
+                    <li>String split()</li>
+                    <li>String substring()</li>
+                    <li>String substr()</li>
+                    <li>String replace()</li>
+                    <li>String replaceAll()</li>
+                    <li>String toUpperCase()</li>
+                    <li>String toLowerCase()</li>
+                    <li>String concat()</li>
+                    <li>String trim()</li>
+                    <li>String trimStart()</li>
+                    <li>String trimEnd()</li>
+                    <li>String padStart()</li>
+                    <li>String padEnd()</li>
+                    <li>String charAt()</li>
+                    <li>String charCodeAt()</li>
+                </ul>
+            </td>
+            <td>
+                <ul>
+                    <li>String indexOf()</li>
+                    <li>String lastIndexOf()</li>
+                    <li>String search()</li>
+                    <li>String match()</li>
+                    <li>String matchAll()</li>
+                    <li>String includes()</li>
+                    <li>String startsWith()</li>
+                    <li>String endsWith()</li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+    <div class="content">
+        <div class="container">
+            <div class="JavaScriptStrings">
+                <div class="methods">
+                    <h2>JavaScript String Methods</h2>
+                    <hr>
+                    <p>String length - The length property returns the length of a string.</p>
+                    <p>String slice() - extracts a part of a string and returns the extracted part in a new string.</p>
+                    <p>String split() - The length property returns the length of a string:</p>
+                    <p>String toString() - The toString() method returns a string as a string.</p>
+                    <p>String substring() - substring() is similar to slice(). The difference is that start and end values less than 0 are treated as 0 in substring().</p>
+                    <p>String substr() - substr() is similar to slice(). The difference is that the second parameter specifies the length of the extracted part.</p>
+                    <p>String replace() - The replace() method replaces a specified value with another value in a string.</p>
+                    <p>String replaceAll() - The replaceAll() method allows you to specify a regular expression instead of a string to be replaced.</p>
+                    <p>String toUpperCase() - Converts a String to Upper case.</p>
+                    <p>String toLowerCase() - Converts a String to Lower case.</p>
+                    <p>String concat() - Joins two or more strings. The concat() method can be used instead of the plus operator. These two lines do the same:</p>
+                    <p>String trim() - The trim() method removes whitespace from both sides of a string.</p>
+                    <p>String trimStart() - The trimStart() method works like trim(), but removes whitespace only from the start of a string.</p>
+                    <p>String trimEnd() - The trimEnd() method works like trim(), but removes whitespace only from the end of a string.</p>
+                    <p>String padStart() - The padStart() method pads a string with another string.</p>
+                    <p>String padEnd() -The padEnd() method pads a string with another string</p>
+                    <p>String charAt() - The charAt() method returns the character at a specified index (position) in a string</p>
+                    <p>String charCodeAt() - The charCodeAt() method returns the unicode of the character at a specified index in a string:</p>
+                </div>
+                <div class="search">
+                    <h2>JavaScript String Search</h2>
+                    <hr>
+                    <p>String indexOf() - The indexOf() method returns the index of (position of) the first occurrence of a string in a string.</p>
+                    <p>String lastIndexOf() -The lastIndexOf() method returns the index of the last occurrence of a specified text in a string.</p>
+                    <p>String search() - The search() method searches a string for a string (or a regular expression) and returns the position of the match.</p>
+                    <p>String match() - The match() method returns an array containing the results of matching a string against a string (or a regular expression).</p>
+                    <p>String matchAll() - The matchAll() method returns an iterator containing the results of matching a string against a string (or a regular expression).</p>
+                    <p>String includes() - The includes() method returns true if a string contains a specified value. Otherwise it returns false.</p>
+                    <p>String startsWith() - The startsWith() method returns true if a string begins with a specified value. Otherwise it returns false:</p>
+                    <p>String endsWith() - The endsWith() method returns true if a string ends with a specified value. Otherwise it returns false:</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
